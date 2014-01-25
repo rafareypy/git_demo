@@ -24,6 +24,7 @@ class PostsControllerTest < ActionController::TestCase
     assert_redirected_to post_path(assigns(:post))
   end
 
+#comentario git -b checkout nome
   test "should show post" do
     get :show, id: @post
     assert_response :success
